@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body,root, body > div, .App, .App > div,.App > div > div {
+  width: 100%;
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.banner-bg{
+  background-size: contain;
+  display: flex;               /* Use flexbox layout */
+  justify-content: center;     /* Center horizontally */
+  align-items: center;         /* Center vertically */
+  height: 100vh;               /* Full viewport height */
+  background-color: #f3f4f6;   /* Light gray background */
+}
+
+.heading-one{
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.heading-two{
+  font-size: larger;
+}
+.heading-three{
+  text-align: center;
+  font-size: medium;
+}
