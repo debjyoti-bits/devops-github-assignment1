@@ -2,8 +2,7 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        // Full-height div for proper centering and background coverage
-        <div className="h-screen w-full flex justify-center items-center bg-gray-800 text-white">
+        <div className="flex justify-center items-center bg-gray-800 text-white">
             <div
                 className="banner-bg"
             >
