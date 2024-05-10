@@ -1,3 +1,4 @@
+/** Testing build pipeline on push **/
 import React from 'react';
 import Banner from './components/Banner';
 import './index.css';
